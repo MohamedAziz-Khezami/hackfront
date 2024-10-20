@@ -245,9 +245,9 @@ export default function App() {
                     <YAxis type="category" dataKey="name" />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="NormalComputers" fill="#8884d8" />
-                    <Bar dataKey="SuperComputers" fill="#82ca9d" />
-                    <Bar dataKey="QuantumComputers" fill="#ffc658" />
+                    <Bar dataKey="NormalComputers" fill="#0d0d0d" />
+                    <Bar dataKey="SuperComputers" fill="#525354" />
+                    <Bar dataKey="QuantumComputers" fill="#969799" />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>
