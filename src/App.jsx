@@ -48,7 +48,7 @@ export default function App() {
   // Updated function to receive radar data from the API
   const sendDataToAPI = async (inputText, cyberAttack) => {
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/data/", {
+      const response = await axios.post("hackback-a2ffhjg0gfdhdjf8.francecentral-01.azurewebsites.net/api/data/", {
         text: inputText,
         attack: cyberAttack,
       });
